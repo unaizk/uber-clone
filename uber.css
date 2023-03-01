@@ -1,0 +1,585 @@
+*{
+    margin: 0;
+   
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;;
+}
+.head-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.uber-nav{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    margin-right: 400px;
+   
+}
+.signup-nav{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    margin-right: 70px;
+   
+    
+}
+.right-section{
+    display: flex;
+    gap: 1px;
+   
+    
+}
+.header{
+    background-color: black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+button{
+    color: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-stretch: 100%;
+    font-weight: 500;
+    background-color: black;
+    margin-top: 2px;
+    padding-top: 5px;
+   
+}
+.safety{
+    color: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-stretch: 100%;
+    font-weight: 500;
+    background-color: black;
+    text-decoration: none;
+   
+}
+.uber{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    
+    
+   
+}
+.help{
+    color: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-stretch: 100%;
+    font-weight: 500;
+    background-color: black;
+    text-decoration: none;
+   
+
+}
+.signup{
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    
+   padding-top: 9px;
+   padding-bottom: 14px;
+   padding-left: 15px;
+   padding-right: 15px;
+   width: 90px;
+   margin-right: 10px;
+
+}
+.world{
+    margin-top: 4px;
+    padding-right: 10px;
+}
+
+.square{
+    margin-top: 4px;
+    padding-right: 10px;
+}
+.middle-container{
+    background-image: url(./images/Rider_Home_bg_desktop2x.jpg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+}
+.text-box{
+    background-color: white;
+    width: 590px;
+    height: 520px;
+    border-radius: 3px;
+    margin-top: 70px;
+    margin-right: 530px;
+}
+.top-text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(232, 232, 232);
+    height: 130px;
+}
+.car-icon{
+    width: 25px;
+    margin-left: 8px;
+}
+.ride{
+    font-weight: 500;
+    margin-left: 5px;
+    margin-top: 16px;
+}
+.range-icon{
+    width: 25px;
+    margin-left: 50px;
+    margin-top: 4px;
+}
+.drive{
+    font-weight: 500;
+    margin-left: 30px;
+}
+.submit{
+    display: flex;
+    gap: 30px;
+    margin-left: 40px;
+    margin-top: 60px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    outline-color: white;
+    
+
+}
+.request{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    margin-top: 35px;
+    margin-right: 40px;
+    
+
+}
+.pickup{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-left: 9px;
+    
+    
+   
+    
+}
+.destination{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-left: 9px;
+    
+    
+}
+.pickup-text{
+    margin-top: 30px;
+    width: 500px;
+    padding: 15px;
+    border: none;
+    background-color: rgb(244, 244, 244);
+    border-radius: 5px;
+    border-color: white;
+   
+    
+}
+.destination-text{
+    width: 500px;
+    margin-top: 9px;
+    padding: 15px;
+    border: none;
+    background-color: rgb(244, 244, 244);
+    border-radius: 5px;
+    border-color: white;
+}
+.pickup-text::placeholder{
+    font-size: 20px;
+   color: rgb(192, 192, 192);
+   
+    
+
+}
+.destination-text::placeholder{
+    font-size: 20px;
+    color: rgb(192,192,192);
+}
+.now{
+    background-color: black;
+    padding: 12px;
+    color: white;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.schedule{
+    background-color: rgb(244,244,244);
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.schedule:hover{
+    background-color: rgb(192, 192, 192);
+}
+.now:hover{
+    background-color: rgb(52, 50, 50);
+}
+.section3-container{
+    background-image: url(./images/building.webp);
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.uber-heading{
+    font-size: 36px;
+    font-weight: 650;
+    line-height: 44px;
+    margin-top: -80px;
+    
+
+}
+.uber-business{
+    margin-right: 690px;
+    margin-top: 90px;
+
+}
+.uber-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 28px;
+}
+.seehow{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.seehow:hover{
+    background-color: rgb(52, 50, 50);
+}
+.auto-moto{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+
+}
+.rental-intercity{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    cursor: pointer;
+}
+.moto-para-text{
+    display: flex;
+}
+.auto-para-text{
+    display: flex;
+}
+.rental-para-text{
+    display: flex;
+}
+.intercity-para-text{
+    display: flex;
+}
+.arrow-img{
+width: 20px;
+margin-left: 10px;
+margin-top: 15px;
+
+}
+.section4-text{
+    font-size: 36px;
+    font-weight: 650;
+    line-height: 44px;
+    margin-top: 80px;
+    color: rgb(51, 51, 51);
+    margin-left: 190px;
+    
+}
+.img-icon{
+    width: 150px;
+}
+.auto-para-written,.moto-para-written,.intercity-para-written,.rental-para-written{
+    width: 300px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+.auto,.moto,.rental,.intercity{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 30px;
+}
+.auto-para-text,.moto-para-text,.rental-para-text,.intercity-para-text{
+    display: flex;
+    justify-content: center;
+
+}
+.auto-moto{
+    margin-top: 70px;
+    
+}
+.auto,.rental{
+    margin-left: 140px;
+
+}
+.moto,.intercity{
+    margin-right: 140px;
+}
+.auto-head-text,.moto-head-text,.rental-head-text,.intercity-head-text{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+
+}
+.auto-text,.moto-text,.rental-text,.intercity-text{
+    margin-top: 22px;
+}
+.section5-images{
+    display: flex;
+    justify-content: space-around;
+}
+.section5-footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.section5-about{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: black;
+}
+.section5-footer-para-text{
+    width: 550px;
+    margin-top: 15px;
+}
+.section5-img{
+    width: 560px;
+    margin-top: 50px;
+}
+.section5-head-text{
+    font-size: 36px;
+    font-weight: 650;
+    line-height: 44px;
+    color: rgb(51, 51, 51);
+    margin-left: 180px;
+    margin-top: 150px;
+}
+.section5-first-image{
+    margin-left: 160px;
+}
+.section5-second-image{
+    margin-right: 150px;
+}
+.section5-footer-head-text{
+    color: rgb(92, 92, 92);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.section5-footer-para-text{
+    color: rgb(115, 115, 115);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+.section5-acout1-text{
+    text-decoration-color: rgb(115, 115, 115);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+   
+    
+    color: black;
+}
+.section5-footer-main1{
+    margin-left: 150px;
+}
+.section5-footer-main2{
+    margin-right: 155px;
+}
+.section6-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.section6-para-text{
+    width: 350px;
+}
+.section6-head-text{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgb(51, 51, 51);
+    margin-top: 20px;
+}
+.section6-para-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(92, 92, 92);
+    margin-top: 15px;
+}
+.section6-link-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgb(0, 0, 0);
+    text-decoration-color: black;
+    
+
+}
+.section6-link{
+    margin-top: 30px;
+}
+.box1{
+    margin-left: 140px;
+}
+.box3{
+    margin-right: 90px;
+}
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+
+}
+.foot-foot{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.footer-uber{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    height: 112px;
+    line-height: 112px;
+    margin-left: 175px;
+    margin-top: 70px;
+    
+}
+.footer-help{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    cursor: pointer;
+    margin-left: 175px;
+    color: rgb(255, 255, 255);
+}
+.footboxhead{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+.foot-para{
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+
+}
+.footer-container{
+    border-top: 2px solid black;
+    margin-top: 90px;
+    background-color: black;
+    
+   
+}
+.footbox1{
+    margin-left: 70px;
+}
+.footbox4{
+    margin-right: 260px;
+}
+.foot-para{
+    margin-top: 12px;
+
+}
+.foot-leftsection{
+    display: flex;
+    gap: 80px;
+    margin-right: 200px;
+    
+}
+.foot-foot{
+    margin-top: 80px;
+    padding-bottom: 150px;
+    
+}
+.foot-rightsection{
+    display: flex;
+    gap: 15px;
+   
+    
+}
+.foot-world,.loc{
+    margin-top: 4px;
+    
+}
+.foot-para:hover{
+    color: rgb(153, 153, 153)
+}
+.facebook{
+    background-color: rgb(0, 0, 0);
+    padding: 13px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.facebook:hover{
+    background-color: rgb(43, 43, 43);
+}
+
+
+   
+    
+
+
+
+
+
+
+  
+
